@@ -22,14 +22,7 @@
                     <ng-container *ngFor="let branch of branches">
                         <mat-option [value]="branch" class="py-8">
                             <div class="z-20 flex items-center py-5 px-8 cursor-pointer border-b">
-                                <div class="relative flex flex-0 items-center justify-center w-10 h-10">
-                                    <div
-                                        class="flex items-center justify-center w-full h-full rounded-full text-lg uppercase bg-gray-200 text-gray-600 dark:bg-gray-700 dark:text-gray-200">
-                                        {{branch.name.charAt(0)}}
-                                    </div>
-                                </div>
-
-                                <div class="min-w-0 ml-4">
+                                <div class="min-w-0">
                                     <div class="font-medium leading-5 truncate">{{branch.name}}</div>
                                 </div>
 
